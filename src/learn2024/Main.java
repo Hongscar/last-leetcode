@@ -1,4 +1,6 @@
-import structure.MyHeap;
+package learn2024;
+
+import learn2024.structure.MyHeap;
 
 import java.util.*;
 

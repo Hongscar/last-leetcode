@@ -1,3 +1,5 @@
+package learn2024;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -95,8 +97,8 @@ public class LRUCache {
 }
 
 /**
- * Your LRUCache object will be instantiated and called as such:
- * LRUCache obj = new LRUCache(capacity);
+ * Your learn2024.LRUCache object will be instantiated and called as such:
+ * learn2024.LRUCache obj = new learn2024.LRUCache(capacity);
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */

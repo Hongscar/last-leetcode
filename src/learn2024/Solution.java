@@ -1,4 +1,4 @@
-/**
+package learn2024; /**
  * @author liangjinghong
  * @description
  * @date 2024/6/25 下午8:42
@@ -8,12 +8,12 @@ import java.util.*;
 
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * public class learn2024.ListNode {
  *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ *     learn2024.ListNode next;
+ *     learn2024.ListNode() {}
+ *     learn2024.ListNode(int val) { this.val = val; }
+ *     learn2024.ListNode(int val, learn2024.ListNode next) { this.val = val; this.next = next; }
  * }
  */
 public class Solution {
@@ -50,11 +50,11 @@ public class Solution {
             // 这里一开始想着要不要 prev.next = null，但其实会把原本节点的结构破坏掉，看到环就最后解决，别提前破坏
             current = tmpNext;
         }
-//        System.out.println(ListNodeUtils.print(list.get(3)));
-//        System.out.println(ListNodeUtils.print(list.get(4)));
-//        System.out.println(ListNodeUtils.print(list.get(5)));
-//        System.out.println(ListNodeUtils.print(list.get(2)));
-//        System.out.println(ListNodeUtils.print(list.get(0)));
+//        System.out.println(learn2024.ListNodeUtils.print(list.get(3)));
+//        System.out.println(learn2024.ListNodeUtils.print(list.get(4)));
+//        System.out.println(learn2024.ListNodeUtils.print(list.get(5)));
+//        System.out.println(learn2024.ListNodeUtils.print(list.get(2)));
+//        System.out.println(learn2024.ListNodeUtils.print(list.get(0)));
         beginNode.next = rightBeginNode;
 //        rightBeginNode.next = null;
         leftBeginNode.next = tmpNext;   // next level already
@@ -276,8 +276,8 @@ public class Solution {
 //        System.out.println(subarraySum(nums, k));
 
 
-//        ListNode listNode = reverseBetween(list.get(0), 3, 5);
-//        System.out.println(ListNodeUtils.print(list.get(0)));
-//        System.out.println(ListNodeUtils.print(listNode));
+//        learn2024.ListNode listNode = reverseBetween(list.get(0), 3, 5);
+//        System.out.println(learn2024.ListNodeUtils.print(list.get(0)));
+//        System.out.println(learn2024.ListNodeUtils.print(listNode));
     }
 }

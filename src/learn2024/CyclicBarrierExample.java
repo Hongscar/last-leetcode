@@ -1,3 +1,5 @@
+package learn2024;
+
 import java.util.concurrent.CyclicBarrier;
 
 public class CyclicBarrierExample {

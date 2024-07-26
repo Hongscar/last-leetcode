@@ -1,4 +1,4 @@
-package structure;
+package learn2024.structure;
 
 import java.util.ArrayList;
 import java.util.List;

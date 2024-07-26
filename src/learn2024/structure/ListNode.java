@@ -1,4 +1,4 @@
-package structure;
+package learn2024.structure;
 
 public class ListNode {
       int val;

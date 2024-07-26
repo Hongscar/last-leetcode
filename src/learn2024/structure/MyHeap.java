@@ -1,4 +1,4 @@
-package structure;
+package learn2024.structure;
 
 /**
  * 简化版大顶堆 only Integer
